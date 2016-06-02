@@ -4,7 +4,8 @@ enum next{
 	
 	Abcd("Life","1996"),
 	Efgh("Love","2012"),
-	Ijkl("Dreams","2016");
+	Ijkl("Dreams","2016"),
+	Mnop("Reality","Now");
 	
 	private String desc;
 	private String year;
