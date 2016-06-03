@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+
+class random{
+	public static void main(String[] args){
+		String fn = JOptionPane.showInputDialog("Enter a number!");
+		String sn = JOptionPane.showInputDialog("Enter another!");
+		
+		int num1 = Integer.parseInt(fn);
+		int num2 = Integer.parseInt(sn);
+		int sum = num1 + num2;
+		
+		// Parameters: position, toDispalay, toDisplayOnTitleBar, icons
+		JOptionPane.showMessageDialog(null, "The answer is: "+sum, "the title", JOptionPane.PLAIN_MESSAGE);
+	}
+}
